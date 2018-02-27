@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name": "blog_vue",
+    "watch": ["server"],
+    "script": "server/app.js",
+    "env": {
+      "PORT": 3456,
+      "NODE_ENV": "development",
+      "MONGODB": "mongodb://localhost:27017"
+    }
+  }]
+}
